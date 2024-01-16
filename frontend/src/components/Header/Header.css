@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-image: var(--header-color);
+  padding: 0.8rem 3rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header_hamburger {
+  background: linear-gradient(to right, #5b6471 #25303f);
+  flex: 0.15;
+  cursor: pointer;
+}
+.header_name {
+  flex: 0.7;
+  text-align: center;
+  font-size: 3rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header_icons {
+  display: flex;
+  align-items: center;
+  flex: 0.15;
+}
+.header_icons .header_icon:first-child {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.header_icon {
+  font-size: 2.5rem;
+}
